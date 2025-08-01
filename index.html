@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Площади по объектам</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h2>Площади по объектам</h2>
+    <button id="auth-button">Авторизоваться</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Объект</th>
+          <th>Коммерческая</th>
+          <th>Паркинг</th>
+          <th>Техническая</th>
+          <th>Общая</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+      <tfoot>
+        <tr>
+          <th>ИТОГО</th>
+          <th id="sum-commercial">0</th>
+          <th id="sum-parking">0</th>
+          <th id="sum-technical">0</th>
+          <th id="sum-total">0</th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

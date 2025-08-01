@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>OAuth Обработка</title></head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const referer = params.get('referer');
+    if (code && referer) {
+      alert('Получен код авторизации. Обмен на токен нужно делать серверно.');
+    } else {
+      alert('Ошибка авторизации.');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+{
+  "name": "Площади по объектам",
+  "version": "1.0.0",
+  "init": {
+    "client": {
+      "desktop": {
+        "url": "https://adil112211.github.io/object_table/index.html"
+      }
+    }
+  },
+  "locations": ["client"],
+  "widgets": {
+    "client": {
+      "desk": {
+        "url": "https://adil112211.github.io/object_table/index.html"
+      }
+    }
+  },
+  "integration": {
+    "widget": {
+      "title": "Площади по объектам",
+      "icon": "https://adil112211.github.io/object_table/icon.png",
+      "description": "Таблица с расчётом площадей сделок",
+      "version": "1.0"
+    }
+  }
+}
